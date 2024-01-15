@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <script src="login.js"></script>
+    <title>login</title>
+</head>
+<body>
+    <h1>Please fill the form :)</h1>
+    <form id="create_user" action="javascript:void(0);" method="get">
+        <div>
+            <label for="nikname">Nick Name:</label>
+                <input type="text" id="nikname" name="nikname" placeholder="eg:curry princess?"></input>
+        </div>
+        <div>
+            <label for="DOB">DOB</label>
+                <input type="date" id="DOB" name="DOB"></input>
+        </div>
+        <button type="submit" onclick="checkUser()" id="button">next</button>
+    </form>
+</body>
+</html>

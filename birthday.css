@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: blueviolet;
+}
+section{
+    height: 100%;
+    width: 100%;
+    padding: 25%;
+} 
+#wish{
+    background-color: white;
+    border: 1px solid;
+}
+#buttons{
+    padding: 10px;
+}
+button{
+    padding: 2%;
+    background-color: purple;
+    color: white;
+}

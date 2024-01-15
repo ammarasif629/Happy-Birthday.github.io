@@ -1,0 +1,12 @@
+html{
+    background-color: rgba(172, 19, 159, 0.363);
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+img{
+    width: 50%;
+}
